@@ -13,16 +13,30 @@ html, body{
     background-color: #111;
 }
 
-
 body{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.box{
+    height: 100%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 20px;
 }
 
-h1{
+#effect-one{
     overflow: hidden;
 }
-h1 span{
+#effect-one span{
     display: inline-block;
+}
+
+#effect-two span{
+    color: aqua;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: 10;
 }
