@@ -36,7 +36,7 @@ var words = effectTwoH1.textContent.split(' ');
 var effectTwoClutter = '';
 
 words.forEach((word) => {
-    effectTwoClutter += `<span class="word">${word}</span> `;
+    effectTwoClutter += `<span class="word">${word}</span>&nbsp;`;
 });
 
 effectTwoH1.innerHTML = effectTwoClutter;
@@ -49,8 +49,8 @@ gsap.from(".word", {
     stagger: 0.3,
 });
 
-gsap.to(".word",{
-    color:'white',
-    delay:0.8,
-    stagger:0.3
+gsap.to(".word", {
+    color: 'white',
+    delay: 0.8,
+    stagger: 0.3
 })
