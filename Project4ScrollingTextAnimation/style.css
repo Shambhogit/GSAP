@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&family=Poiret+One&family=Roboto:ital,wght@0,100..900;1,100..900&family=TASA+Explorer:wght@400..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: "TASA Explorer", sans-serif; */
+    /* font-family: "Poiret One", sans-serif; */
+     font-family: "Funnel Display", sans-serif;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    background-color: #111;
+}
+
+#page1, #page2, #page3{
+    height: 100%;
+    width: 100%;
+}
+
+#move{
+    background-color: #d9ff06;
+    display: flex;
+    padding: 3vw 0;
+    overflow: hidden;
+}
+.marque{
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    gap:3vw;
+    padding: 0 1.5vw;
+    transform: translateX(-100%);
+}
+.marque h1{
+    font-size: 50px;
+    font-weight: 400;
+}
+.marque img{
+    height: 40px;
+}
