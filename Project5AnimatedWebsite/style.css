@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&family=Poiret+One&family=Roboto:ital,wght@0,100..900;1,100..900&family=TASA+Explorer:wght@400..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "TASA Explorer", sans-serif;
+    /* font-family: "Poiret One", sans-serif; */
+     /* font-family: "Funnel Display", sans-serif; */
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+section{
+    height: 100%;
+    width: 100%;
+    /* background-color:bisque; */
+    position:relative;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 80px;
+}
+
+.part2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+nav h1{
+    font-size: 40px;
+}
+nav h1 i{
+    display: inline-block;
+    rotate: 45deg;
+}
+nav h4{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+nav button{
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius:5px;
+    font-weight: 300;
+    border:1px solid #000
+}
+
+.center{
+    /* background-color: red; */
+    height: 75%;
+    width: 100%;
+    display: flex;
+    padding: 0px 80px;
+}
+
+.center-part1{
+    /* background-color: yellow; */
+    height: 80%;
+    width: 50%;
+}
+
+
+.center-part2{
+    /* background-color: goldenrod; */
+
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    position: relative;
+    height: 80%;
+    width: 50%;
+}
+
+.center-part1 h1{
+    line-height: 1.2;
+    font-size: 100px;
+    font-weight: 500;
+    font-family: "Funnel Display", sans-serif;
+}
+
+.center-part1 p{
+    /* line-height: 1.2; */
+    font-size: 30px;
+    width: 90%;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    /* font-weight: 500; */
+    /* font-family: "Funnel Display", sans-serif; */
+}
+
+.center-part1 button{
+    background-color: black;
+    color:white;
+    border-radius: 10px;
+    padding: 22px 40px;
+    font-size: 25px;
+    font-weight: 600;
+    border:none;
+}
+
+.center-part2 img{
+    position: absolute;
+    height: 100%;
+    width: 70%;
+    top: 10%;
+    right: 5%;
+}
+
+.section-one-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding-left: 80px;
+    padding-right: 80px;
+    /* padding-bottom: 120px; */
+}
+
+#amz{
+    height: 100px;
+}
+#dri{
+    height: 35px;
+}
+#not{
+    height: 80px;
+}
+#zoo{
+    height: 100px;
+}
+#hub{
+    height: 35px;
+}
+#net{
+    height: 100px;
+}
+
+.section2 .services{
+    background-color: red;
+}
